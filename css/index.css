@@ -1,0 +1,42 @@
+.principal{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10rem 48rem 8rem;
+    justify-content: center;
+}
+.header{
+    width: 100vw;
+    height: 8rem;
+    background-color: rgb(136, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.porque{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.footer{
+    height: 8rem;
+    background-color: rgb(136, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
